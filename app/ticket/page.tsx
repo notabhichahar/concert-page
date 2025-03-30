@@ -10,7 +10,7 @@ export default function Ticket(){
     return(
         <>
         <Canvas
-            text={ticketId}
+            text={ticketId!}
             options={{
             errorCorrectionLevel: 'M',
             margin: 3,
